@@ -6,16 +6,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
-  <meta name="author" content="Marc Hypolite & David Kirton">
+  <meta name="author" content="">
 <link rel="icon" type="image/png" href="img/favicon.png"/>
 <link rel="icon" type="image/png" href="img/favicon.png"/>
-    <meta property="og:url"                content="https://project1.hci.repl.co/" />
+
+ <meta property="og:url"                content="https://project1.hci.repl.co/" />
 <meta property="og:type"               content="website" />
 <meta property="og:title"              content="Hydroponics system controled by a rasberry pi" />
-<meta property="og:description"        content="A hydoponics system controled by a rasberry pi this is the title of our project for human computer interfaces we are a group of four students" />
+<meta property="og:description"        content="This is our heuristics analysis" />
 <meta property="og:image"              content="https://metatester.keyman500.repl.co/previewpic1.png" />
-
-  <title>Hydroponics System with Rasberry Pi</title>
+  <title>Heuristics analysis</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,32 +26,18 @@
 
   <!-- Custom styles for this template -->
   <link href="css/business-casual.min.css" rel="stylesheet">
-<style>
-.words{
-     display: block;
-  font-size: 3rem;
-  font-weight: 100;
-}
-@media (max-width: 479px) {
-    .words {
-          display: block;
-  font-size: 2rem;
-  font-weight: 100;
-    }
-}
 
-</style>
 </head>
 
 <body>
 
   <h1 class="site-heading text-center text-white d-none d-lg-block">
     <span class="site-heading-upper text-primary mb-3">Hydroponics System with Rasberry Pi</span>
-    <span class="site-heading-lower">Farming Made Easy</span>
+    <span class="site-heading-lower">Farming made easy</span>
   </h1>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
     <div class="container">
       <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Hydroponics System</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,7 +76,7 @@
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="heuristics.html">Heuristics Evalulation</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="analysis.html">Heuristics Analysis</a>
+          <a class="dropdown-item active" href="analysis.html">Heuristics Analysis</a>
         </div>
       </li>
         </ul>
@@ -98,48 +84,60 @@
     </div>
   </nav>
 
-  <section class="page-section clearfix">
-    <div class="container">
-      <div class="intro">
-        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/Hydroponic_pic.webp" alt="">
-        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-          <h2 class="section-heading mb-4">
-            <span class="section-heading-upper">Automated hydroponics</span>
-            <span class="words">andriod Application</span>
-          </h2>
-          <p class="mb-3">
-            This app will be connected to a hydroponics system using internet. The app will show it’s users how much water and nutrients are left in the tanks and give them a notification if it gets too low. The application can also be used too program the system too wet certain crops and certain times.
-          </p>
-          <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="./hifi.html">Watch demo</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<section class="page-section about-heading">
+  <div class="container">
+   <div class="card">
+  <div class="card-body">
+    <h1 class="d-flex justify-content-center">Heuristics Analysis</h1>
+    <h8>The following heuristics were used to analyse the hydroponic system app:
+</h3>
+      <ol>
+  <li>Visibility of system status</li>
+  <li>Match between the system and the real world</li>
+  <li>User control and freedom</li>
+  <li>Consistency and standards</li>
+  <li>Error prevention</li>
+  <li>Recognition rather than recall</li>
+  <li>Flexibility and Efficiency of use</li>
+  <li>Aesthetic and minimalist design</li>
+  <li>Help users recognize, diagnose, and recover from errors</li>
+  <li>Help and Documentation</li>
+  
+</ol> 
 
-  <section class="page-section cta">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <div class="cta-inner text-center rounded">
-            <h2 class="section-heading mb-4">
-              <span class="section-heading-upper">Our vision</span>
-              <span class="section-heading-lower"></span>
-            </h2>
-            <p class="mb-0">This system will be used by farmers or anyone wanting to grow a garden too help decrease the amount of manual work needed to grow crops. The User’s hydroponic system should be connect to the internet so that once the user has access to the internet they can use the application to control and monitor the hydroponic system. User’s will be able to observe if their nutrients supply is low, water supply is low or if an error occurred in the system. User’s can also use the application to control the system. A user can turn the system on or off at anytime and also set it too turned on at a scheduled time. </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer text-faded text-center py-5">
-    <div class="container">
-      <p class="m-0 small">Copyright &copy; Your Website 2020</p>
-    </div>
-  </footer>
-
+<ol>
+  <li><b>The app has no error messages or any confirmation messages.</b><br/>
+     Severity : Medium<br/>
+     Heuristics broken: 5, 6 , 9<br/>
+     Solution : include pop up message indicating when they did a task as well as include error    
+     messages.<br/>
+</li><br/>
+  <li><b>The scheduling tab was not easily accessible to the user.</b><br/>
+     Severity : Medium<br/>
+     Heuristics broken: 3, 7<br/> 
+     Solution : place the menu tab  where the option to access the scheduling tab is in on every   page  so the user can access the tab in just two clicks.
+</li><br/>
+  <li><b>Not very clear if the sensors are off or on.</b><br/>
+    Severity : High<br/>
+     Heuristics broken: 1<br/>
+     Solution : when the user presses the turn on button the the text o the button should shift to ,so it will be very clear if the sensor is on or off.
+</li><br/>
+  <li><b>The colour of the interfaces are not customizable.</b><br/>
+     Severity : low<br/>
+     Heuristics broken: 3<br/>
+     Solution : provide an option to change the colour combinations in the app interface.
+</li><br/>
+  <li><b>it is not easy to add new sections to the interface.</b><br/>
+   Severity :Medium<br/>
+    Heuristics broken: 3 , 7<br/>
+    Solution : provide an add section button on the page which displays all the sections of the system.
+</li>
+</ol>
+        
+  </div>
+</div>   
+  </div>
+</section>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
